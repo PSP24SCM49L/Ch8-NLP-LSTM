@@ -53,12 +53,12 @@ print (my_sentence2, ' : ', predict_sentiment(my_sentence2))
 
 @app.route("/")
 def entry():
-    return "Wellcome!"
+    return "Wellcome Priya!"
     
 # build a route or HTTP endpoint
 @app.route('/hello')
 def hello():
-    return 'Hello World!'
+    return 'Hello Darshani!'
 
 ##### New Code #####
 # default HTML to show at first when no input is sent
